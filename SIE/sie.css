@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Triogrotesk';
+    src: url('fonts/Triogrotesk-Medium.woff2') format('woff2'),
+         url('fonts/Triogrotesk-Medium.woff') format('woff'),
+         url('fonts/Triogrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+body{
+    color: #260101;
+        font-family: "Triogrotesk", serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+}
+    
+/* header*/
+header{
+    font-family: "Triogrotesk", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    background-color: white ;
+    padding: 1rem 2%;
+} 
+header h1{
+    margin: 0;
+    color: rgb(130, 196, 249);
+}
+header p{
+    margin:0;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+/*navigation*/
+nav{
+    background-color: rgb(130, 196, 249);
+}
+nav ul {
+    list-style-type:none;
+    padding: 0 2%;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+
+}
+nav ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    display: block;
+    padding: .83rem 2rem;
+
+}
+
+nav a:hover {
+    color: #3841a1;
+}
+/*main*/
+main {
+    padding: 1rem 2%;
+    text-align: center;
+
+}
+main h1 {
+    color:#260101;
+
+
+}
+main h2 {
+    color: #3841a1;
+    margin-bottom: .5rem;
+    text-align: center;
+    font-size: 25px;
+}
+main p {
+    color: #260101;
+    /* margin: 0 0 .5rem 0; */
+    font-size: 20px;
+    max-width: 1000px; /* Sets the maximum width of the text */
+    margin: 0 auto; /* Centers the text block */
+    padding: 10px;
+    line-height: 1.6; /* Improves readability */
+
+}
+main ol {
+    padding: .5rem 3%;
+    background-color: #dbecea;
+    font-weight: 500;
+}
+main dl dt {
+    color: #260101;
+    font-weight: 500;
+}
+main dl dd {
+    color: #8c6542;
+    font-size: .9rem;
+}
+main ul{
+    list-style-type: none;
+    /* column-count: 3; /* Number of columns */
+    /* column-gap: 30px; /* Gap between columns */
+    /* list-style-position: inside; /* Optional: keep bullets aligned */
+    text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Gap between columns */
+            list-style: none; /* Optional: remove default bullets */
+            padding: 0;
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    /* margin-bottom: 10px; /* Optional: add spacing between items */
+    flex: 0 0 30%;
+}
+/* main address{
+    font-style: normal;
+    background-color: #bce2de;
+    padding: .8rem;
+    width: 20rem;
+    border: 1px solid #260101;;
+    border-radius: .5rem;
+}
+*/
+    
+main a {
+color: #5f9289;
+}
+main a:hover {
+    color: #8c6542;
+    }
+
+    figure.wrapped {
+        width: 30%;
+        margin: 0 0 0 2%;
+        float: right;
+    }
+    figure.wrapped img {
+        width: 100%;
+        height: auto;
+    }
+    figure.wrapped figcaption {
+        text-align: center;
+        font-size: .75rem;
+    }
+    div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.gallery figure {
+        margin: .5rem 2% 0 0;
+    }
+    div.gallery figcaption {
+        text-align: center;
+        font-size: .8rem;
+        color: #8c6542;
+    }
+
+
+/*footer here*/
+footer {
+    background-color: rgb(130, 196, 249);
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #bce2de;
+}
